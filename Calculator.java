@@ -1,4 +1,4 @@
-package com.zz.Calculator;
+package com.zz.calculator;
 
 import java.util.LinkedList;
 import java.util.List;
