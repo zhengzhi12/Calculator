@@ -27,7 +27,8 @@ public class Calculator {
      * @param inputString
      */
     private void inputHandler(String inputString) {
-        // this variable is to monitor if the upcoming sign is legal, depending on cases. Say, while false, it can only be switched to true by inserting a number.
+        // this variable is to monitor if the upcoming sign is legal, depending on cases. Say, while false, 
+        // it can only be switched to true by inserting a number.
         boolean readyForSign = false;
         // this variable is to monitor if the parenthesis is legal.
         int parenthesisCount = 0;
@@ -78,7 +79,8 @@ public class Calculator {
     }
 
     /**
-     * this method is a little bit tricky, I ignore '+' and '-' for the first loop, but add the candidate numbers and signs to the end of the LinkedList. The second loop will calculate '+' and '-' which leaves only the final result in the numList.
+     * this method is a little bit tricky, I ignore '+' and '-' for the first loop, but add the candidate numbers and signs 
+     * to the end of the LinkedList. The second loop will calculate '+' and '-' which leaves only the final result in the numList.
      */
     private void calculate() {
         List<Double> numList = new LinkedList<>();
