@@ -125,7 +125,7 @@ public class Calculator {
 
     public static void main(String[] args) {
         // input doesn't allow "="
-        Calculator calculator = new Calculator("(3+21/3+8/2)/5 +4");
+        Calculator calculator = new Calculator("(3+21/3+8/2)/5 +4-5");
         calculator.printResult();
     }
 }
